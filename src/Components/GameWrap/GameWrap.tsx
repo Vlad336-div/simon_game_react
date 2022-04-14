@@ -18,6 +18,7 @@ const GameWrap = (): JSX.Element => {
     const square: color = randomSquare();
     setSequence([square])
     playSequence()
+    setCount(0)
   }
 
   const continueGame = () => {
